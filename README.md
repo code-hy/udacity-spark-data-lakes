@@ -6,10 +6,10 @@ Three data sources will be used to create a machine curated learning data.
   * accelerometer
   * step training
 
-###**Project Introduction: STEDI Human Balance Analytics**
+### **Project Introduction: STEDI Human Balance Analytics**
 In this project, you'll act as a data engineer for the STEDI team to build a data lakehouse solution for sensor data that trains a machine learning model.
 
-####Project Details
+#### Project Details
 The STEDI Team has been hard at work developing a hardware STEDI Step Trainer that:
    *  trains the user to do a STEDI balance exercise;
    *  and has sensors on the device that collect data to train a machine-learning algorithm to detect steps;
@@ -22,7 +22,7 @@ The STEDI team wants to use the motion sensor data to train a machine learning m
 
 Some of the early adopters have agreed to share their data for research purposes. Only these customers’ Step Trainer and accelerometer data should be used in the training data for the machine learning model.
 
-Project Summary
+#### Project Summary
 As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
 
 
