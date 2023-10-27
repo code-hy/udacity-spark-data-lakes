@@ -1,20 +1,19 @@
 # udacity-spark-data-lakes
-for the project: STEDI Human Balance Analytics
-Project Overview
-Spark and Human Balance
-As you have learned in this course Spark and AWS Glue allow you to process data from multiple sources, categorize the data, and curate it to be queried in the future for multiple purposes. In this project you will directly use the skills you have used, including some of the code you have already written.
+## for the project: STEDI Human Balance Analytics
+### Project Overview
+Three data sources will be used to create a machine curated learning data.
+  * customer
+  * accelerometer
+  * step training
 
-You will go beyond that to write additional AWS Glue jobs to create curated step trainer data that can be used for machine learning.
-
-Project Introduction: STEDI Human Balance Analytics
+###**Project Introduction: STEDI Human Balance Analytics**
 In this project, you'll act as a data engineer for the STEDI team to build a data lakehouse solution for sensor data that trains a machine learning model.
 
-Project Details
+####Project Details
 The STEDI Team has been hard at work developing a hardware STEDI Step Trainer that:
-
-trains the user to do a STEDI balance exercise;
-and has sensors on the device that collect data to train a machine-learning algorithm to detect steps;
-has a companion mobile app that collects customer data and interacts with the device sensors.
+   *  trains the user to do a STEDI balance exercise;
+   *  and has sensors on the device that collect data to train a machine-learning algorithm to detect steps;
+   *  has a companion mobile app that collects customer data and interacts with the device sensors.
 STEDI has heard from millions of early adopters who are willing to purchase the STEDI Step Trainers and use them.
 
 Several customers have already received their Step Trainers, installed the mobile application, and begun using them together to test their balance. The Step Trainer is just a motion sensor that records the distance of the object detected. The app uses a mobile phone accelerometer to detect motion in the X, Y, and Z directions.
@@ -26,7 +25,7 @@ Some of the early adopters have agreed to share their data for research purposes
 Project Summary
 As a data engineer on the STEDI Step Trainer team, you'll need to extract the data produced by the STEDI Step Trainer sensors and the mobile app, and curate them into a data lakehouse solution on AWS so that Data Scientists can train the learning model.
 
-Your project work will be evaluated against this rubric. Take a moment to review the requirements of the rubric now, and while you're working on your project to make sure you're meeting all the requirements for deliverables.
+
 
 Flow
 ![image](https://github.com/code-hy/udacity-spark-data-lakes/assets/82032854/0aed8eee-95ba-4476-9000-3e1cfd855f29)
